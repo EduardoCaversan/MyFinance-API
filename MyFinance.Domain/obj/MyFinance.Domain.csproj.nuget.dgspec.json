@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj": {}
+    "C:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj": {
+    "C:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj",
         "projectName": "MyFinance.Domain",
-        "projectPath": "c:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj",
+        "projectPath": "C:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj",
         "packagesPath": "C:\\Users\\educa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\obj\\",
+        "outputPath": "C:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\educa\\AppData\\Roaming\\NuGet\\NuGet.Config"

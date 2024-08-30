@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mXrAnbnH5mtWxMiOsFaZIgjL/2eqVr2hMc+bzGAvVOfZdBxOCrLevb2GMGWECllLYeC12cKOXeEvbjfga9rhgg==",
+  "dgSpecHash": "4tMkSr9S/0xvWZhZn2w6/ZsoZgrudI0NFAsA6O/7Td097+bD3fz0xInsxyc5ybHWor/ltjbb48NR67FidcKsIw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj",
+  "projectFilePath": "C:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\educa\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\educa\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
