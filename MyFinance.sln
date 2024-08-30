@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFinance.API", "MyFinance.API\MyFinance.API.csproj", "{C02EDAC8-EB1D-402A-ACA1-7412BA75FD5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFinance.Domain", "MyFinance.Domain\MyFinance.Domain.csproj", "{4DF00988-483D-41BC-965E-AA45D4A88F41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C02EDAC8-EB1D-402A-ACA1-7412BA75FD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02EDAC8-EB1D-402A-ACA1-7412BA75FD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02EDAC8-EB1D-402A-ACA1-7412BA75FD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02EDAC8-EB1D-402A-ACA1-7412BA75FD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF00988-483D-41BC-965E-AA45D4A88F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF00988-483D-41BC-965E-AA45D4A88F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF00988-483D-41BC-965E-AA45D4A88F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF00988-483D-41BC-965E-AA45D4A88F41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

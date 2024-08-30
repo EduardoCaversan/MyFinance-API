@@ -1,0 +1,12 @@
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\bin\Debug\net6.0\MyFinance.Domain.deps.json
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\bin\Debug\net6.0\MyFinance.Domain.dll
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\bin\Debug\net6.0\MyFinance.Domain.pdb
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\MyFinance.Domain.csproj.AssemblyReference.cache
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\MyFinance.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\MyFinance.Domain.AssemblyInfoInputs.cache
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\MyFinance.Domain.AssemblyInfo.cs
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\MyFinance.Domain.csproj.CoreCompileInputs.cache
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\MyFinance.Domain.dll
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\refint\MyFinance.Domain.dll
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\MyFinance.Domain.pdb
+c:\Users\educa\OneDrive\Área de Trabalho\Projetos\MyFinance-API\MyFinance.Domain\obj\Debug\net6.0\ref\MyFinance.Domain.dll
