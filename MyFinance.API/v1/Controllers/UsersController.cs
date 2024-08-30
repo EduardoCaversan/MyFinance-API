@@ -26,7 +26,7 @@ namespace Adventech.Events.API.v1.Controllers
         [ServiceFilter(typeof(ValidateTokenFilter))]
         public async Task<ActionResult<string>> ListUserViewedToursForManagementQuery()
         {
-            return "Salve";
+            return "Testing";
         }
     }
 }
