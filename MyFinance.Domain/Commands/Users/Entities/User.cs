@@ -20,7 +20,7 @@ namespace MyFinance.Domain.Commands.Users.Entities
             string name,
             string mobileNumber,
             string password,
-            DateTimeOffset birthdayDate,
+            DateTimeOffset? birthdayDate = null,
             bool isSysAdmin = false
         )
         {

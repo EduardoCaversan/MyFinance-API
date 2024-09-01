@@ -21,7 +21,7 @@ namespace MyFinance.Domain.Queries
                 return new QueryResult<T>(ErrorCode.InvalidParameters, "Um ou mais parâmetros estão inválidos.");
             var hasPermission = await query.HasPermissionAsync(this);
             if (!hasPermission)
-                return new QueryResult<T>(ErrorCode.Unauthorized, "Você não esta autorizado executar essa consulta.");
+                return new QueryResult<T>(ErrorCode.Unauthorized, "Você não esta autorizado a executar essa consulta.");
             return await query.ExecuteAsync(this);
         }
 
@@ -31,7 +31,7 @@ namespace MyFinance.Domain.Queries
                 return new QueryResult<IViewModel>(ErrorCode.InvalidParameters, "Um ou mais parâmetros estão inválidos.");
             var hasPermission = await query.HasPermissionAsync(this);
             if (!hasPermission)
-                return new QueryResult<IViewModel>(ErrorCode.Unauthorized, "Você não esta autorizado executar essa consulta.");
+                return new QueryResult<IViewModel>(ErrorCode.Unauthorized, "Você não esta autorizado a executar essa consulta.");
             return await query.ExecuteAsync(this);
         }
 

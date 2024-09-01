@@ -26,7 +26,7 @@ namespace MyFinance.Domain.Queries.Users.ListUsersForSysAdminQuery
 
         public override async Task<bool> HasPermissionAsync(QueriesHandler queriesHandler)
         {
-            return await Task.FromResult(true);
+            return await Task.FromResult(queriesHandler.CurrentRequest.IsSysAdmin);
         }
 
         public override bool IsValid()

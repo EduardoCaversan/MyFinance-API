@@ -34,7 +34,7 @@ namespace MyFinance.Domain.Utils
                 throw new InvalidOperationException("Failed to parse token");
 
             UserId = _token.Payload.ContainsKey("sub") ? _token.Payload["sub"].ToString() : null;
-            UserIsAdmin = _token.Payload.ContainsKey("admin") && _token.Payload["admin"].ToString() == "1";
+            UserIsAdmin = _token.Payload.ContainsKey("UserIsAdmin") && _token.Payload["UserIsAdmin"].ToString() == "True";
         }
 
         public static TokenData FromHttpRequest(HttpRequest request)

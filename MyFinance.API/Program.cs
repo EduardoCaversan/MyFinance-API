@@ -1,3 +1,4 @@
+using Dapper;
 using Microsoft.AspNetCore.Mvc.Versioning.Conventions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -27,6 +28,7 @@ builder.Services.AddScoped<ValidateTokenFilter>();
 builder.Services.AddScoped<CommandsHandler>();
 builder.Services.AddScoped<QueriesHandler>();
 
+DefaultTypeMap.MatchNamesWithUnderscores = true;
 builder.Services.AddApiVersioning(options =>
 {
     options.ReportApiVersions = true;
