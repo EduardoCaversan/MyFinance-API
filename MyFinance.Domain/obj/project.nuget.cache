@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4tMkSr9S/0xvWZhZn2w6/ZsoZgrudI0NFAsA6O/7Td097+bD3fz0xInsxyc5ybHWor/ltjbb48NR67FidcKsIw==",
+  "dgSpecHash": "NQnfT+Bk7SjOSf8x3ZY2NJCPD62Z7flQtZZNyRHkFiM95ZvOBl6fnKs7OY73kIp7jIzuKB6QrTF+aPsaCxvImA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj",
+  "projectFilePath": "c:\\Users\\educa\\OneDrive\\Área de Trabalho\\Projetos\\MyFinance-API\\MyFinance.Domain\\MyFinance.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\educa\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\educa\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\educa\\.nuget\\packages\\dapper\\2.1.15\\dapper.2.1.15.nupkg.sha512",
     "C:\\Users\\educa\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\educa\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\educa\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

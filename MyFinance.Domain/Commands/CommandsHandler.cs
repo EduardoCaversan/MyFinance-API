@@ -13,16 +13,14 @@ namespace MyFinance.Domain.Commands
 {
     public class CommandsHandler
     {
-        private readonly string _secretKey;
         private readonly ListenersHandler _listenersHandler;
 
         public RequestData CurrentRequest { get; set; }
         public CommandsDbContext DbContext { get; private set; }
 
-        public CommandsHandler(CommandsDbContext context, string secretKey, ListenersHandler listenersHandler)
+        public CommandsHandler(CommandsDbContext context, ListenersHandler listenersHandler)
         {
             DbContext = context;
-            _secretKey = secretKey;
             _listenersHandler = listenersHandler;
         }
 

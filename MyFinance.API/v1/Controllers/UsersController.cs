@@ -1,32 +1,30 @@
 
 using Microsoft.AspNetCore.Mvc;
-using MyFinance.API.Filters;
-using MyFinance.API.v1.Controllers;
 using MyFinance.Domain.Commands;
 using MyFinance.Domain.Queries;
+using MyFinance.Domain.Queries.Users.ListUsersForSysAdminQuery;
 using MyFinance.Domain.Utils;
-using System.Threading.Tasks;
 
-namespace Adventech.Events.API.v1.Controllers
+namespace MyFinance.API.v1.Controllers
 {
-    [Route("api/events/v{version:apiVersion}/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
-    public class UserTourViewsController : MyFinanceControllerBase
+    public class UsersController : MyFinanceControllerBase
     {
         private readonly CommandsHandler _commandsHandler;
         private readonly QueriesHandler _queriesHandler;
 
-        public UserTourViewsController(CommandsHandler commandsHandler, QueriesHandler queriesHandler)
+        public UsersController(CommandsHandler commandsHandler, QueriesHandler queriesHandler)
         {
             _commandsHandler = commandsHandler;
             _queriesHandler = queriesHandler;
         }
 
         [HttpGet("management")]
-        [ServiceFilter(typeof(ValidateTokenFilter))]
-        public async Task<ActionResult<string>> ListUserViewedToursForManagementQuery()
+        public async Task<ActionResult<CommandResult>> ListUsersForSysAdminQuery([FromQuery] ListUsersForSysAdminQuery query)
         {
-            return "Testing";
+            return GetResult(await _queriesHandler.RunQuery(query));
         }
+
     }
 }

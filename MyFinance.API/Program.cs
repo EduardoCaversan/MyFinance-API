@@ -13,13 +13,19 @@ var builder = WebApplication.CreateBuilder(args);
 Keys.SetIssuer(builder.Configuration.GetValue<string>("MyFinanceServer:Issuer"));
 Keys.SetApiUrl(builder.Configuration.GetValue<string>("MyFinanceServer:ApiUrl"));
 
-builder.Services.AddDbContext<CommandsDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Commands")));
-builder.Services.AddDbContext<QueriesDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Queries")));
+builder.Services.AddDbContext<CommandsDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Commands")));
+builder.Services.AddDbContext<QueriesDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Queries")));
 
+builder.Services.AddScoped<ListenersHandler>(provider =>
+{
+    var secretKey = builder.Configuration.GetValue<string>(Keys.ACCESS_TOKEN_SIGNATURE);
+    return new ListenersHandler(secretKey);
+});
+builder.Services.AddScoped<ValidateTokenFilter>();
 builder.Services.AddScoped<CommandsHandler>();
 builder.Services.AddScoped<QueriesHandler>();
-builder.Services.AddScoped<ListenersHandler>();
-builder.Services.AddScoped<ValidateTokenFilter>();
 
 builder.Services.AddApiVersioning(options =>
 {
@@ -80,7 +86,6 @@ app.UseCors(x => x
     .AllowCredentials());
 
 app.UseSwagger();
-
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyFinance API.v1");
@@ -89,6 +94,7 @@ app.UseSwaggerUI(c =>
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>

@@ -17,7 +17,7 @@ namespace MyFinance.Domain.Events
         private readonly ConcurrentDictionary<string, EventListener> _listeners;
         private readonly string _secretKey;
 
-        private ListenersHandler(string secretKey)
+        public ListenersHandler(string secretKey)
         {
             _listeners = new ConcurrentDictionary<string, EventListener>();
             _secretKey = secretKey;
@@ -27,8 +27,7 @@ namespace MyFinance.Domain.Events
         {
             lock (LockObject)
             {
-                if (_instance == null)
-                    _instance = new ListenersHandler(secretKey);
+                _instance ??= new ListenersHandler(secretKey);
             }
             return _instance;
         }
